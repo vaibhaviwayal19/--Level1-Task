@@ -1,0 +1,221 @@
+
+        /*CSS For Page*/
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        /*CSS Of Body Or Background*/
+        body {
+           
+            background: linear-gradient(90deg, rgb(132, 147, 159), rgba(0, 212, 255, 1));
+
+            height    : 100vh;
+            height    : auto;
+        }
+
+        /*CSS Of Menu Navbar*/
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: rgb(131, 22, 122);
+           
+            /*To Keep Fix Postion Of Menu Navbar While Scrolling*/
+            top: 0;
+            position: fixed;
+            width: 100%;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: rgb(199, 193, 193);
+            font-size: 1rem;
+            text-align: center;
+            text-decoration: none;
+            padding: 7px;
+            padding-right: 15px; 
+        }
+        li a:hover:not(.active){
+            background-color: rgb(206, 24, 212);
+            color: white;
+        }
+        .active {
+            background-color: rgb(132, 168, 64);
+            color: white;
+        }
+        /*CSS For div login, signUp Or Registration & forgotPassword */
+        .commanDiv {
+            padding: 70px 0;
+            text-align: center;
+            align-self: center;
+            background-color: rgb(103, 166, 193);
+            width: 350px;
+            height: auto;
+            position: absolute;
+            margin-top: 40px;
+            margin-right: center;
+            margin-left: 40%;
+             
+        }
+        /*E-Learning Name CSS In Navbar*/
+        .brand{
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: white;
+        }
+        /*CSS For All Titles*/
+        .titles {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        /* All Buttons CSS*/
+        .btn{
+            appearance: button; 
+            background-color: #ff227e; 
+            border-color: white; 
+            border-radius: 4px; 
+            border-style: solid; 
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 10px -5px, rgba(0, 0, 0, 0.15) 8px 4px 10px -5px, rgba(0, 0, 0, 0.15) -8px 4px 10px -5px; 
+            color: whitesmoke;
+            cursor: pointer; 
+            font-family: '&quot' Segoe UI '&quot';
+            font-size: 1rem; font-weight: bold; 
+            line-height: inherit; margin: 10px 20px; 
+            overflow: visible; 
+            padding: 10px 24px; 
+            transition: all 0.3s linear 0s; 
+            width: auto;
+        }
+        /*CSS For All input Texts*/
+        .inputs {
+            background-color: rgb(187, 181, 181); 
+            border-bottom: 2.3px solid rgb(34, 102, 255); 
+            border-left: none; 
+            border-radius: 3px; 
+            border-right: none; 
+            border-top: none; 
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 8px 10px -5px; 
+            color: #666666; 
+            font-family: '&quot' Segoe UI '&quot';
+            font-size: 1rem; 
+            font-weight: bold; 
+            line-height: inherit; 
+            margin: 10px 20px; 
+            overflow: visible; 
+            padding: 9px 15px; 
+            position: relative; 
+            transition: all 0.3s linear 0s; 
+            width: 250px;
+        }
+        .options {
+            background-color: white; 
+            border-bottom: 2.3px solid rgb(34, 102, 255); 
+            border-right: none; 
+            border-left: none; 
+            border-top: none;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 8px 10px -5px; 
+        }
+        /*CSS For Video div*/
+        .viewVideo{
+           
+            padding: 50px 0;
+            text-align: center;
+            align-self: center;
+            background-color: rgb(255, 255, 255);
+            width: 350px;
+            height: auto;
+            margin-right: center;
+            margin-left: 40%;
+        }
+        /*CSS For Quiz Test*/
+        .quiz {
+            padding: 70px 0;
+            text-align: center;
+            align-self: center;
+            background-color: rgb(255, 255, 255);
+            width: 350px;
+            height: auto;
+            position: absolute;
+            margin-right: center;
+            margin-left: 40%;
+        }
+        .ques{
+            font-weight: bold;
+        }
+
+        .courceList {
+            padding: 70px 0;
+            text-align: center;
+            align-self: center;
+            background-color: rgb(134, 68, 68);
+            width: 350px;
+            height: auto;
+            position: absolute;
+            margin-right: center;
+            margin-left: 40%;
+        }
+        #products {
+            background-color: rgb(134, 68, 68);
+        
+        }
+        #main {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            
+        }
+
+        #test {
+            width: auto;
+            height: auto;
+            background-color: rgb(191, 89, 191);
+            margin: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        @media (max-width: 376px) {
+            body {
+                background-color: crimson;
+                color: blueviolet;
+            }
+        }
+
+        @media (min-width: 376px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 600px) {
+            body {
+                background-color: black;
+            }
+        }
+
+        @media (min-width: 768px) {
+            body {
+                background-color: chocolate;
+            }
+        }
+
+        @media (min-width: 992px) {
+            body {
+                background-color: rgb(243, 243, 10);
+            }
+        }
+
+        @media (min-width: 1199px) {
+            body {
+                background-color: burlywood;
+            }
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
